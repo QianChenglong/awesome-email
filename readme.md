@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A widget for [awesome]() to get email status.
+A widget for [awesome][] to get email status.
 
 Like this  
 ![a](show.png)
@@ -38,3 +38,5 @@ Like this
         ...
         if s == 1 then right_layout:add(wibox.widget.systray()) end
         + right_layout:add(mailWidget)
+
+[awesome]: http://awesome.naquadah.org/wiki/Main_Page
